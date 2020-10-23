@@ -10,29 +10,29 @@ import {
 } from "react-bootstrap";
 import "../assets/css/landing-carousel.css";
 
-// functional component for presentation only.
-const LandingCarousel = () => {
-  const CarouselContentData = [
-    {
-      imageSource: require("../assets/images/items/5.png"),
-      headingText: "THE HYPERAUTOMATION",
-      badgeText: "UI Path",
-      locationText: "London",
-    },
-    {
-      imageSource: require("../assets/images/items/15.jpg"),
-      headingText: "Setting Up Your Business For AREP",
-      badgeText: "UI Path",
-      locationText: "New York",
-    },
-    {
-      imageSource: require("../assets/images/items/27.jpg"),
-      headingText: "Improve Performance With Employee-led Feedback",
-      badgeText: "Human Resource",
-      locationText: "Venice",
-    },
-  ];
+// file specific constant
+const CarouselContentData = [
+  {
+    imageSource: require("../assets/images/items/5.png"),
+    headingText: "THE HYPERAUTOMATION",
+    badgeText: "UI Path",
+    locationText: "London",
+  },
+  {
+    imageSource: require("../assets/images/items/15.jpg"),
+    headingText: "Setting Up Your Business For AREP",
+    badgeText: "UI Path",
+    locationText: "New York",
+  },
+  {
+    imageSource: require("../assets/images/items/27.jpg"),
+    headingText: "Improve Performance With Employee-led Feedback",
+    badgeText: "Human Resource",
+    locationText: "Venice",
+  },
+];
 
+const LandingCarousel = () => {
   return (
     <div className="landing-carousel-bg">
       <Carousel controls={true} touch={true}>

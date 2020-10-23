@@ -12,7 +12,7 @@ import {
   Dropdown,
 } from "react-bootstrap";
 
-// raw data for cards
+// file specific constants
 const eventCarouselData = [
   {
     count: "55",
@@ -105,7 +105,7 @@ const breakPoints = [
   { width: 1200, itemsToShow: 4 },
 ];
 
-// class component to ease refer some third party functions
+// class component to ease reference some third party functions
 class EventsCarousel extends React.Component {
   constructor(props) {
     super(props);
@@ -143,6 +143,7 @@ class EventsCarousel extends React.Component {
     );
   };
 
+  // render method for component
   render() {
     return (
       <div>
