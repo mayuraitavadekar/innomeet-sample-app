@@ -1,0 +1,84 @@
+.landing-carousel-bg {
+  background-image: url("../images/items/13.jpg");
+  background-size: cover;
+  height: 500px;
+  width: "100%";
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-container {
+  padding-left: 0;
+  padding-right: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lead-text {
+  font-weight: bold;
+  color: #000000;
+  opacity: 50%;
+}
+
+.location-badge {
+  background-color: transparent;
+}
+
+.carousel-container-hr {
+  top: 20px;
+  border: none;
+  height: 2px;
+  background: white;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+
+.join-now-button {
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.join-now-text {
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+  .carousel-container-image {
+    height: 100px;
+    width: 100px;
+  }
+
+  .second-landing-col {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .third-landing-col {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .carousel-container-image {
+    height: 180px;
+    width: 180px;
+  }
+
+  .second-landing-col {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .third-landing-col {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

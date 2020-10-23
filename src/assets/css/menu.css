@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+  .sign-in {
+    padding-top: 15px;
+  }
+}
+
+.register-btn {
+  border-radius: 20px;
+}
+
+.search-bar {
+  border-radius: 20px;
+}
